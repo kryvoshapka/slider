@@ -1,0 +1,152 @@
+* {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 1435px;
+
+}
+
+.wrapper {
+    display: block;
+    width: 1375px;
+    height: 229px;
+
+    margin: 105px 30px;
+
+    background-image: url(source/images-2/background.jpg);
+}
+
+button:active,
+button:focus {
+    outline: none;
+}
+
+.slide img {
+
+    margin: 0 auto;
+}
+
+.name {
+    position: absolute;
+   float: left;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 100px;
+    bottom: 120px;
+
+}
+
+.details {
+
+
+float: right;
+    width: 171px;
+    height: 53px;
+    background-size: 171px, 53px;
+
+    border: transparent;
+    border-radius: 7px;
+    color: white;
+
+    font-family: "Open Sans Semibold";
+    font-size: 19px;
+
+    margin-right: 100px;
+}
+
+
+/**/
+
+
+
+.slick-arrow {
+position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    font-size: 0;
+    color: transparent;
+    border: 0;
+    width: 14px;
+    height: 24px;
+    background: url(source/images-2/arrow-right.png);
+
+}
+
+.slick-prev {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    width: 54px;
+    height: 54px;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+    opacity: .5;
+
+
+}
+
+.slick-next {
+    position: absolute;
+    z-index: 2;
+    width: 54px;
+    height: 54px;
+    right: 0;
+
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+    opacity: .5;
+}
+
+
+
+.slick-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    text-align: center;
+
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.slick-dots li button {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: white;
+    font-size: 0;
+    color: transparent;
+    border: 2px solid white;
+    transition: .4s;
+}
+
+.slick-dots li.slick-active button {
+    background: #5c9265;
+
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    transition: .4s;
+
+}
+
+button .slick-prev .slick-arrow {
+    position: absolute;
+    z-index: 3;
+    background-image: url(source/images-2/arrow-left.png);
+
+}
